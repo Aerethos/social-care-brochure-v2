@@ -77,36 +77,3 @@ const BrochureViewer = () => {
 };
 
 export default BrochureViewer;
-```
-
----
-
-## PART 2: Organize Your Folder Structure
-
-Your folder should look EXACTLY like this:
-```
-social-care-brochure/
-├── .gitignore
-├── package.json
-├── next.config.js
-├── tsconfig.json
-├── tailwind.config.ts
-├── postcss.config.js
-├── app/
-│   ├── globals.css
-│   ├── layout.tsx
-│   ├── page.tsx
-│   └── brochure/
-│       └── page.tsx
-├── components/
-│   ├── Header.tsx
-│   ├── Navigation.tsx
-│   └── BrochureViewer.tsx
-├── lib/
-│   └── constants.ts
-└── public/
-    ├── pages/
-    │   ├── page-1.jpg
-    │   ├── page-2.jpg
-    │   └── ... (your images)
-    └── brochure.pdf
